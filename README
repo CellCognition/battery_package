@@ -1,0 +1,15 @@
+Cecog Analyzer Battery Package
+============================================
+
+Use
+------------
+
+This repository is linked as a submodule to the cecog repository.
+
+Use:
+
+"git submodule init"
+"git submodule update"
+
+in the cecog repository to check out the demo data. You will find it
+in "apps/CecogAnalyzer/resources/battery_package"
