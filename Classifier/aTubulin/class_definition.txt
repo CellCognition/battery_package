@@ -1,0 +1,6 @@
+1	inter	#E41A1C
+2	aster	#377EB8
+3	prometa	#4DAF4A
+4	bipolar	#984EA3
+5	ana	#FF7F00
+6	midbody	#FFFF33

@@ -1,0 +1,37 @@
+numberOfClasses
+# The number of classes in the classification
+# per single time point.
+8
+
+numberOfHiddenStates
+# The number of hidden classes may be larger or smaller than
+# the original number of classes in the classification. If
+# the number of hidden states is smaller, than all classes
+# without an in-node in the hiddenNodeAssociation are ignored.
+# One can copy some of the original classes by assigning
+# multiple hidden states to the same original class.
+8
+
+startNodes
+# These are the classes allowed at the first time point of the time series.
+1     2
+
+transitionGraph
+# All nodes before the -> are linked to all nodes after
+# the ->. This graph represent all allowed transitions.
+# All other transition probabilities are set to 0.
+1,2,3,4,5,6,7,8 -> 1,2,3,4,5,6,7,8
+
+hiddenNodeToClassificationNode
+# assign each hidden class the corresponding class of the original classification
+# allows to copy single classes. These associations are used as initial
+# assignments. The class name of the original class is transferred.
+# This is a n-to-1 association
+1	1
+2	2
+3	3
+4	4
+5	5
+6	6
+7	7
+8	8

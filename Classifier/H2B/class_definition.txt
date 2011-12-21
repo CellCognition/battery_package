@@ -1,0 +1,8 @@
+1	inter	#00ff00
+2	pro	#fff643
+3	prometa	#ff8000
+4	meta	#d28dce
+5	earlyana	#8931ea
+6	lateana	#5871f1
+7	telo	#94b22d
+8	apo	#FF0000
