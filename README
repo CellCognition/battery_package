@@ -11,4 +11,4 @@ in the cecog repository to check out the demo data. You will find it in
 
 "apps/CecogAnalyzer/resources/battery_package"
 
-Just running the CecogAnalyzer as an app will automatically load the demo config file, which is copied on demand into the application support folder of your os (e.g. ".../AppData/CecogAnalyzer1.2.5" for Windows 7)
+Just running the CecogAnalyzer as an app will automatically load the demo config file, which is copied on demand into the application support folder of your os (e.g. ".../AppData/CecogAnalyzer1.5.0" for Windows 7)
