@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<constraints>
-  <numberOfClasses>6</numberOfClasses>
-  <numberOfHiddenStates>6</numberOfHiddenStates>
-  <!-- define start nodes, list must have numberOfHiddenstates elemets -->
-  <startNodes>1 1 0 0 0 0</startNodes>
-  <transitionGraph>
+<constraint>
+  <n_emissions>6</n_emissions>
+  <n_states>6</n_states>
+  <start_probabilities>1 1 0 0 0 0</start_probabilities>
+  <transition_matrix>
     1 1 0 0 0 0
     0 1 1 0 0 0
     0 0 1 1 0 0
     0 0 0 1 1 0
     0 0 0 0 1 1
     1 0 0 0 0 1
-  </transitionGraph>
-  <!-- allow transition by setting the matrix element to one
-       the matrix must have numberOfHiddenStates by numberOfClasses elements -->
-  <emissionMatrix epsilon="1e-12">
-    1 0 0 0 0 0
-    0 1 0 0 0 0
-    0 0 1 0 0 0
-    0 0 0 1 0 0
-    0 0 0 0 1 0
-    0 0 0 0 0 1
-  </emissionMatrix>
-</constraints>
+  </transition_matrix>
+  <emission_matrix>
+    1 1 1 1 1 1
+    1 1 1 1 1 1
+    1 1 1 1 1 1
+    1 1 1 1 1 1
+    1 1 1 1 1 1
+    1 1 1 1 1 1
+  </emission_matrix>
+</constraint>
