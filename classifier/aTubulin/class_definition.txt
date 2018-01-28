@@ -1,3 +1,4 @@
+label   name    color
 1	inter	#E41A1C
 2	aster	#377EB8
 3	prometa	#4DAF4A
