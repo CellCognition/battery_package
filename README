@@ -1,14 +1,17 @@
-Cecog Analyzer Battery Package
-============================================
-This package provides demo data for the CecogAnalyzer. The repository is linked as a submodule to the main cecog repository.
+CecogAnalyzer Demo Data
+=======================
+The repository is checkout out as a submodule in the cellcognition repository.
 
-Use
 
-"git submodule init"
-"git submodule update"
+```bash
+git submodule init
+git submodule update
+```
 
-in the cecog repository to check out the demo data. You will find it in 
+You find it here:
+```
+<path/to/cellcognition/directory>/resources/battery_package
+```
 
-"apps/CecogAnalyzer/resources/battery_package"
-
-Just running the CecogAnalyzer as an app will automatically load the demo config file, which is copied on demand into the application support folder of your os (e.g. ".../AppData/CecogAnalyzer1.5.0" for Windows 7)
+CecogAnalyzer copies automatically the demo data from the repository to the Applicaton folder.
+The path is platform specific e.g. ```<User/user>/AppData/Roaming/CecogAnalyzer1.5.0`` for Windows7
