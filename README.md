@@ -14,4 +14,4 @@ You find it here:
 ```
 
 CecogAnalyzer copies automatically the demo data from the repository to the Applicaton folder.
-The path is platform specific e.g. ```<User/user>/AppData/Roaming/CecogAnalyzer1.5.0`` for Windows7
+The path is platform specific e.g. ```<User/user>/AppData/Roaming/CecogAnalyzer1.5.0``` for Windows7
